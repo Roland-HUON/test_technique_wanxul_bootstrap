@@ -1,0 +1,15 @@
+/* .bg-image{
+    background-image: url('../assets/images/home/wankul_card_games.png');
+    background-size: cover;
+} */
+ .divMainContent{
+    background-color: #33291C;
+ }
+ .wanxul_image{
+    width: 752px;
+    height: 321px;
+ }
+ .form-check-input:checked{
+   background-color: black;
+   border-color: black;
+ }

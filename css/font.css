@@ -1,0 +1,24 @@
+ .headMainContent_title{
+    font-family: 'Futura', sans-serif;
+ }
+ .headMainContent_text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+ }
+ .headMainContent_text_second{
+   font-family: 'Montserrat', sans-serif;
+ }
+ .form-check-label{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+ }
+ .aside_title{
+    font-family: 'Futura', sans-serif;
+ }
+ .aside_text{
+   font-family: 'Sharp Sans', sans-serif;
+   font-size: 14px;
+ }
+ .fw-exbold{
+    font-weight: 800;
+ }
