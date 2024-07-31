@@ -1,0 +1,8 @@
+ body{
+    background-color: #792524;
+ }
+ .backgroundImage{
+    background-image: url(../assets/images/home/wankul_card_games.png);
+    background-size: cover;
+    opacity: 0.10;
+ }

@@ -4,10 +4,15 @@
 } */
  .divMainContent{
     background-color: #33291C;
+    max-width: 752px;
  }
  .wanxul_image{
     width: 752px;
     height: 321px;
+ }
+ .wanxul_title{
+   width: 206px;
+   height: auto;
  }
  .form-check-input:checked{
    background-color: black;
