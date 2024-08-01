@@ -14,7 +14,21 @@
    width: 206px;
    height: auto;
  }
+ aside{
+    width: 360px !important;
+    height: 616px;
+ }
+ .productImage{
+    width: 90%;
+ }
  .form-check-input:checked{
    background-color: black;
    border-color: black;
  }
+ .bg-yellow{
+    background-color: #F9DF3E;
+ }
+ .fs-btn{
+    font-family: 'Lato', sans-serif;
+ }
+ 
