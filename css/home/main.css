@@ -1,25 +1,23 @@
-/* .bg-image{
-    background-image: url('../assets/images/home/wankul_card_games.png');
-    background-size: cover;
-} */
  .divMainContent{
     background-color: #33291C;
-    max-width: 752px;
+    width: 752px;
  }
  .wanxul_image{
-    width: 752px;
     height: 321px;
  }
  .wanxul_title{
-   width: 206px;
-   height: auto;
+    width: 206px;
+    height: auto;
  }
  aside{
     width: 360px !important;
     height: 616px;
  }
  .productImage{
-    width: 90%;
+    width: 353px;
+ }
+ .asideContain{
+    bottom: 20px;
  }
  .form-check-input:checked{
    background-color: black;
@@ -28,7 +26,53 @@
  .bg-yellow{
     background-color: #F9DF3E;
  }
- .fs-btn{
-    font-family: 'Lato', sans-serif;
+ @media screen and (max-width: 1200px) {
+    .divMainContent{
+      width: 626px;
+    }
+    aside{
+      width: 300px !important;
+      height: 570px;
+    }
+    .productImage{
+      width: 90%;
+    }
+ }
+ @media screen and (max-width: 1000px) {
+    aside{
+      height: fit-content;
+    }
+    .asideContain{
+      bottom: 0;
+    }
+    .wanxul_title{
+      margin-top: 50px;
+    }
+ }
+ @media screen and (max-width: 800px) {
+    .mainDiv{
+      height: fit-content !important;
+      padding: 20px;
+    }
+    .mainContent{
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+    .wanxul_image{
+      height: 200px;
+    }
+    .wanxul_title{
+      margin-top: 0;
+    }
+    #asideMark{
+      width: 100% !important;
+      padding-bottom: 0 !important;
+    }
+ }
+ @media screen and (max-width: 500px) {
+    .wanxul_image{
+      height: 150px;
+    }
  }
  

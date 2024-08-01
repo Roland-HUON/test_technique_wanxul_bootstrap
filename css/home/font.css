@@ -1,10 +1,10 @@
  .headMainContent_title{
-    font-family: 'Futura', sans-serif;
-    color: #F9DF3E;
+   font-family: 'Futura', sans-serif;
+   color: #F9DF3E;
  }
  .headMainContent_text{
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 14px;
  }
  .headMainContent_text_second{
    font-family: 'Montserrat', sans-serif;
@@ -14,12 +14,25 @@
    font-size: 14px;
  }
  .aside_title{
-    font-family: 'Futura', sans-serif;
+   font-family: 'Futura', sans-serif;
  }
  .aside_text{
    font-family: 'Sharp Sans', sans-serif;
    font-size: 14px;
  }
  .fw-exbold{
-    font-weight: 800;
+   font-weight: 800;
+ }
+ .fs-btn{
+   font-family: 'Lato', sans-serif;
+ }
+ @media screen and (max-width: 1200px) {
+   .aside_title{
+      width: 60% !important;
+   }
+ }
+ @media screen and (max-width: 800px) {
+   .aside_text{
+      width: 75%;
+   }
  }
