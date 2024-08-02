@@ -1,0 +1,62 @@
+ .wanxul_title{
+    width: 229px;
+    height: 56px;
+ }
+ .headVoteContent{
+   gap: 12px;
+ }
+ .fightDiv{
+   height: 82%;
+ }
+ .carte{
+   height: 506px;
+   width: 362px;
+ }
+ .vsContent{
+   background: linear-gradient(180deg, #ffecc8 -85%, rgb(255, 115, 0) 50%);
+   width: 70px;
+   height: 80px;
+   border-color: rgb(255, 115, 0) !important;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+ .vsContent p{
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+ }
+ .progress{
+   height: 33px;
+   background-color: rgba(0, 0, 0, 0);
+ }
+ .progress-bar{
+   height: 100%;
+   background-color: #DD3630;
+ }
+ @media screen and (max-width: 1200px) {
+   .carte{
+       height: 400px;
+       width: 300px;
+   }
+ }
+ @media screen and (max-width: 1000px) {
+   .fightDiv{
+      gap: 24px !important;
+   }
+   .vsContent{
+       width: 55px;
+       height: 60px;
+   }
+ }
+ @media screen and (max-width: 700px) {
+   .voteContent{
+      gap: 20px;
+      height: fit-content !important;
+   }
+   .fightDiv{
+      justify-content: unset !important;
+      flex-direction: column;
+      gap: 12px !important;
+   }
+   .carte{
+      height: 200px;
+      width: 150px;
+   }
+ }

@@ -1,0 +1,13 @@
+ .voteContent_title{
+   color: #F9DF3E;
+   font-family: 'Futura', sans-serif;
+ }
+ .progress-bar_text{
+   font-family: "Sharp Sans", sans-serif;
+   height: fit-content;
+ }
+ @media screen and (max-width: 1000px) {
+   .voteContent_title{
+      width: 75%;
+   }
+ }

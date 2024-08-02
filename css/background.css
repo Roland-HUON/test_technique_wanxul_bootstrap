@@ -9,5 +9,6 @@
  @media screen and (max-width: 800px) {
     .backgroundImage{
       height: 150vh !important;
+      background-position-x: center;
     }
  }
