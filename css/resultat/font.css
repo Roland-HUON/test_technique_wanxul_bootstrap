@@ -60,3 +60,34 @@
  .bottomResultContentDiv_btn{
     font-family: 'Sharp Sans', sans-serif;
  }
+ @media screen and (max-width:1000px) {
+    .headResultContent-second_textFirst{
+       width: 75%;
+    }
+    .headResultContent-second_textSecond{
+       width: 75%;
+    }
+    .number{
+      height: 36px;
+      font-size: 50px;
+    }
+    .number::before{
+      font-size: 50px;
+    }
+    .bottomResultContentSousDiv_title{
+      text-align: center;
+    }
+    .bottomResultContentSousDiv_text{
+      text-align: center;
+      width: 100% !important;
+    }
+ }
+ @media screen and (max-width:800px) {
+   .number{
+      height: 24px;
+      font-size: 36px;
+    }
+    .number::before{
+      font-size: 36px;
+    }
+ }

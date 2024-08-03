@@ -2,3 +2,9 @@
 @import url("css/background.css");
 @import url("css/resultat/font.css");
 @import url("css/resultat/result.css");
+
+@media screen and (max-width: 1000px) {
+    .backgroundImage{
+        height: 150vh !important;
+    }
+}
