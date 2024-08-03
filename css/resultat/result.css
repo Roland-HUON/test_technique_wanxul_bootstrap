@@ -19,8 +19,11 @@
       width: 55px;
       height: 55px;
  }
- .social-media-icon>path:hover{
+ .icons{
     fill: #FDE52D;
+ }
+ .social-media-icons-yellow{
+   border: 4px solid #FDE52D !important;
  }
  .bottomResultContent{
     gap: 53px;
@@ -40,6 +43,10 @@
     font-size: 18px;
     padding-top: 12px;
     padding-bottom: 12px;
+ }
+ .bottomResultContentDiv_btn:hover{
+    border: 4px solid #FDE52D;
+    color: #FDE52D;
  }
  @media screen and (max-width:1400px) {
    .social-media-icons{
