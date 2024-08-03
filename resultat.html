@@ -11,46 +11,58 @@
     <header></header>
     <main class="overflow-hidden">
         <div class="backgroundImage position-absolute z-2 top-0 vh-100 w-100"></div>
-        <div class="container position-relative z-3 px-5 vh-100">
-            <div class="row rounded">
-                <section class="headResultContent-first">
-                    <img src="assets/logo/wanxul_logo.png" alt="logo de wanxul">
-                    <h1 class="headResultContent-first_title ">Voici mes cartes légendaires préférées</h1>
-                    <div>
-                        <div>
-                            <div>
-                                <p>1</p>
-                                <p>1</p>
+        <div class="mainResult container position-relative z-3 px-5 vh-100 d-flex flex-column align-items-center justify-content-center">
+            <div class="headResultContent rounded-4 row d-flex w-100">
+                <section class="headResultContent-first d-flex flex-column align-items-center justify-content-center w-75 p-4 gap-2">
+                    <img src="assets/logo/wanxul_logo.png" alt="logo de wanxul" class="title">
+                    <div class="headResultContent-firstDiv d-flex flex-column w-100">
+                        <h1 class="headResultContent-firstDiv_title fs-4 text-uppercase fw-bold text-center m-0">Voici mes cartes légendaires préférées</h1>
+                        <div class="headResultContent-firstDiv-Content d-flex align-items-center justify-content-between p-3">
+                            <div class="d-flex align-items-end">
+                                <p class="number position-relative m-0 d-flex align-items-center justify-content-center" id="number-first">1</p>
+                                <img src="assets/images/resultat/nohomo_card.png" alt="carte nohomo" class="carte border border-2 border-white rounded-4">
                             </div>
-                            <img src="assets/images/resultat/nohomo_card.png" alt="carte nohomo" class="carte border border-2 border-white rounded-4">
-                        </div>
-                        <div>
-                            <div>
-                                <p>2</p>
-                                <p>2</p>
+                            <div class="d-flex align-items-end">
+                                <p class="number position-relative m-0 d-flex align-items-center justify-content-center" id="number-two">2</p>
+                                <img src="assets/images/resultat/trophee_card.png" alt="carte trophée" class="carte border border-2 border-white rounded-4">
                             </div>
-                            <img src="assets/images/resultat/trophee_card.png" alt="carte trophée" class="carte">
-                        </div>
-                        <div>
-                            <div>
-                                <p>3</p>
-                                <p>3</p>
+                            <div class="d-flex align-items-end">
+                                <p class="number position-relative m-0 d-flex align-items-center justify-content-center" id="number-three">3</p>
+                                <img src="assets/images/resultat/guerriereMercenaire_card.png" alt="carte guerrière mercenaire" class="carte border border-2 border-white rounded-4">
                             </div>
-                            <img src="assets/images/resultat/guerriereMercenaire_card.png" alt="carte guerrière mercenaire" class="carte border border-2 border-white">
                         </div>
                     </div>
                 </section>
-                <div class="headResultContent-second">
-                    <p class="fw-medium">Ta participation au <span class="fw-bold">tirage au sort du 2 juillet</span> est confirmée !</p>
-                    <p>Double tes chances de gagner en partageant ta TopList :</p>
+                <div class="headResultContent-second w-25 bg-white rounded-4 p-4 d-flex flex-column align-items-center justify-content-evenly">
+                    <p class="headResultContent-second_textFirst fw-medium text-center">Ta participation au <span class="fw-bold">tirage au sort du 2 juillet</span> est confirmée !</p>
+                    <p class="headResultContent-second_textSecond fst-italic text-center">Double tes chances de gagner en partageant ta TopList :</p>
+                    <div class="d-flex align-items-center w-75 justify-content-between">
+                        <div class="social-media-icons border border-4 border-black rounded-circle d-flex justify-content-center align-items-center">
+                            <svg class="social-media-icon" width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.7539 0.6875H22.3086L14.4883 9.67578L23.7305 21.8125H16.5195L10.832 14.4492L4.38281 21.8125H0.777344L9.15625 12.2656L0.320312 0.6875H7.73438L12.8125 7.44141L18.7539 0.6875ZM17.4844 19.6797H19.4648L6.66797 2.71875H4.53516L17.4844 19.6797Z" fill="#33291C"/>
+                            </svg>
+                        </div>
+                        <div class="social-media-icons border border-4 border-black rounded-circle d-flex justify-content-center align-items-center">
+                            <svg class="social-media-icon" width="15" height="27" viewBox="0 0 15 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.4375 15.4844H0.0859375V10.5078H3.4375V8.375C3.4375 2.83984 5.92578 0.25 11.3594 0.25C12.375 0.25 14.1523 0.453125 14.8633 0.65625V5.17578C14.5078 5.125 13.8477 5.125 12.9844 5.125C10.3438 5.125 9.32812 6.14062 9.32812 8.73047V10.5078H14.6094L13.6953 15.4844H9.32812V26.25H3.4375V15.4844Z" fill="#33291C"/>
+                            </svg>
+                        </div>
+                        <div class="social-media-icons border border-4 border-black rounded-circle d-flex justify-content-center align-items-center">
+                            <svg class="social-media-icon" width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.5 6.41016C14.6992 6.41016 17.3398 9.05078 17.3398 12.25C17.3398 15.5 14.6992 18.0898 11.5 18.0898C8.25 18.0898 5.66016 15.5 5.66016 12.25C5.66016 9.05078 8.25 6.41016 11.5 6.41016ZM11.5 16.0586C13.582 16.0586 15.2578 14.3828 15.2578 12.25C15.2578 10.168 13.582 8.49219 11.5 8.49219C9.36719 8.49219 7.69141 10.168 7.69141 12.25C7.69141 14.3828 9.41797 16.0586 11.5 16.0586ZM18.9141 6.20703C18.9141 5.44531 18.3047 4.83594 17.543 4.83594C16.7812 4.83594 16.1719 5.44531 16.1719 6.20703C16.1719 6.96875 16.7812 7.57812 17.543 7.57812C18.3047 7.57812 18.9141 6.96875 18.9141 6.20703ZM22.7734 7.57812C22.875 9.45703 22.875 15.0938 22.7734 16.9727C22.6719 18.8008 22.2656 20.375 20.9453 21.7461C19.625 23.0664 18 23.4727 16.1719 23.5742C14.293 23.6758 8.65625 23.6758 6.77734 23.5742C4.94922 23.4727 3.375 23.0664 2.00391 21.7461C0.683594 20.375 0.277344 18.8008 0.175781 16.9727C0.0742188 15.0938 0.0742188 9.45703 0.175781 7.57812C0.277344 5.75 0.683594 4.125 2.00391 2.80469C3.375 1.48438 4.94922 1.07812 6.77734 0.976562C8.65625 0.875 14.293 0.875 16.1719 0.976562C18 1.07812 19.625 1.48438 20.9453 2.80469C22.2656 4.125 22.6719 5.75 22.7734 7.57812ZM20.3359 18.9531C20.9453 17.4805 20.793 13.9258 20.793 12.25C20.793 10.625 20.9453 7.07031 20.3359 5.54688C19.9297 4.58203 19.168 3.76953 18.2031 3.41406C16.6797 2.80469 13.125 2.95703 11.5 2.95703C9.82422 2.95703 6.26953 2.80469 4.79688 3.41406C3.78125 3.82031 3.01953 4.58203 2.61328 5.54688C2.00391 7.07031 2.15625 10.625 2.15625 12.25C2.15625 13.9258 2.00391 17.4805 2.61328 18.9531C3.01953 19.9688 3.78125 20.7305 4.79688 21.1367C6.26953 21.7461 9.82422 21.5938 11.5 21.5938C13.125 21.5938 16.6797 21.7461 18.2031 21.1367C19.168 20.7305 19.9805 19.9688 20.3359 18.9531Z" fill="#33291C"/>
+                            </svg>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <section class="rounded bg-white">
-                <img src="assets/images/resultat/reduction_image.png" alt="liste de cartes wanxul">
-                <div>
-                    <h2 class="fw-bold">Profite d'une réduction immédiate</h2>
-                    <p class="fw-normal">Grâce au code <span class="fw-bold">TOPLIST10</span>, bénéficie d’une réduction de -10% sur toute notre collection.</p>
-                    <button onclick="window.location.href = 'https://wankul.fr/';" class="fw-bold btn-warning">GO to wankul.fr</button>
+            <section class="bottomResultContent d-flex align-items-center rounded-3 bg-white p-4">
+                <img src="assets/images/resultat/reduction_image.png" alt="liste de cartes wanxul" class="bottomResultContent_img rounded-3 border border-2 border-black">
+                <div class="bottomResultContentDiv d-flex flex-column justify-content-center align-items-start">
+                    <div class="bottomResultContentSousDiv d-flex flex-column justify-content-center">
+                        <h2 class="bottomResultContentSousDiv_title fw-bold fs-3 m-0">Profite d'une réduction immédiate</h2>
+                        <p class="bottomResultContentSousDiv_text fw-normal m-0 w-75">Grâce au code <span class="fw-bold">TOPLIST10</span>, bénéficie d’une réduction de -10% sur toute notre collection.</p>
+                    </div>
+                    <button onclick="window.location.href = 'https://wankul.fr/';" class="bottomResultContentDiv_btn fw-bold btn m-0 rounded-3 px-3">GO sur wankul.fr</button>
                 </div>
             </section>
         </div>

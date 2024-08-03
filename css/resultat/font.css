@@ -1,3 +1,62 @@
-.headResultContent-first_title{
+ .headResultContent-firstDiv_title{
     color: #F9DF3E;
-}
+ }
+ .number{
+   font-family: "Burbank Big Condensed", sans-serif;
+   height: 52px;
+   font-size: 75px;
+   font-weight: 900;
+   color: rgba(0, 0, 0, 0);
+   transform: rotate(-3.54deg);
+   /* Activer ce code pour mettre le texte avec un contour noir pour des navigateurs qui supporte pas webkit 
+   text-shadow: 
+      1px 0px #FDE52D,
+      -1px 0px #FDE52D,
+      0px 1px #FDE52D,
+      0px -1px #FDE52D; */
+   -webkit-text-stroke: 1px #FDE52D;
+ }
+ .number::before{
+   position: absolute;
+   top: -50%;
+   right: 5px;
+   font-family: "Burbank Big Condensed", sans-serif;
+   font-size: 75px;
+   font-weight: 900;
+   color: white;
+   /* Activer ce code pour mettre le texte avec un contour noir pour des navigateurs qui supporte pas webkit 
+   text-shadow: 
+      1px 0px #FDE52D,
+      -1px 0px #FDE52D,
+      0px 1px #FDE52D,
+      0px -1px #FDE52D; */
+   -webkit-text-stroke: 1px #FDE52D;
+ }
+ #number-first::before{
+   content: "1";
+ }
+ #number-two::before{
+   content: "2";
+ }
+ #number-three::before{
+   content: "3";
+ }
+ .headResultContent-second_textFirst{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+ }
+ .headResultContent-second_textSecond{
+    font-family: 'Sharp Sans', sans-serif;
+    font-weight: 800;
+    font-size: 21px;
+ }
+ .bottomResultContentSousDiv_title{
+    font-family: 'Montserrat', sans-serif;
+ }
+ .bottomResultContentSousDiv_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+ }
+ .bottomResultContentDiv_btn{
+    font-family: 'Sharp Sans', sans-serif;
+ }

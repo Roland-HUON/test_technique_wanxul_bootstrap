@@ -1,6 +1,43 @@
-.headResultContent-first{
+ .mainResult{
+    gap: 32px;
+ }
+ .title{
+    width: 126px;
+    height: 30px;
+ }
+ .headResultContent{
     background-color: #33291C;
-}
-.carte{
-    width: 14%;
-}
+ }
+ .headResultContent-firstDiv{
+   gap: 17px;
+ }
+ .carte{
+    width: 172px;
+    height: 241px;
+ }
+ .social-media-icons{
+      width: 55px;
+      height: 55px;
+ }
+ .social-media-icon>path:hover{
+    fill: #FDE52D;
+ }
+ .bottomResultContent{
+    gap: 53px;
+ }
+ .bottomResultContent_img{
+    width: 429px;
+    height: 239px;
+ }
+ .bottomResultContentDiv{
+    gap: 32px;
+ }
+ .bottomResultContentSousDiv{
+    gap: 21px;
+ }
+ .bottomResultContentDiv_btn{
+    background-color: #F9DF3E;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+ }
