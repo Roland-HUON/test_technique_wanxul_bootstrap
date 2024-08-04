@@ -26,6 +26,14 @@
  .bg-yellow{
     background-color: #F9DF3E;
  }
+ .pastille{
+  height: 94px;
+  width: 94px;
+  }
+  .cadeau{
+    bottom: 17%;
+    right: 15%;
+  }
  @media screen and (max-width: 1200px) {
     .divMainContent{
       width: 626px;
